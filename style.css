@@ -10,3 +10,45 @@ Description: Notre premier theme WordPress !
     border-color: #080808;
     height: 80px;
 }
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+
+/* DEMO example styles for logo image */
+
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+    padding: 5px 14px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px!important;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+
+#navbar-primary .navbar-nav {
+    background: #ededed;
+    width: 100%;
+    text-align: center;
+}
+
+
+#navbar-primary li {
+    display: inline-block;
+    float: none;
+}
+
+#navbar-primary a {
+    padding-left: 30px;
+    padding-right: 30px;
+}

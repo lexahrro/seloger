@@ -15,25 +15,60 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo AMG" class="img-responsive"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="active" href="index.html">Accueil</a></li>
-                <li><a href="amg.html">Amg gt-s</a></li>
-                <li><a href="cab.html">Cabriolet</a></li>
-                <li><a href="story2.html">Histoire</a></li>
-                <li><a href="contact2.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+<div class="container">
+    <nav  class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/logo.png" alt="SeLoger">
+                </a>
+            </div>
 
-            </ul>
+
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-    </div>
-</nav>
+        <!--/.container-fluid -->
+    </nav>
+
+
+    <header role="banner">
+        <nav id="navbar-primary" class="navbar" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">ACCUEIL</a></li>
+                        <li><a href="#">LOCATION</a></li>
+                        <li><a href="#"><img id="logo-navbar-middle" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/logo.png" width="200" alt="Logo Thing main logo"></a></li>
+                        <li><a href="#">AVIS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header><!-- header role="banner" -->
+</div>
