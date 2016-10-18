@@ -52,3 +52,9 @@ Description: Notre premier theme WordPress !
     padding-left: 30px;
     padding-right: 30px;
 }
+
+#logo, #logo img {
+	display: block;
+    text-align: center;
+    margin: 0 auto;
+}
