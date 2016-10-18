@@ -1,4 +1,28 @@
 <?php get_header(); ?>
+
+
+<div class="container container-search">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Trouvez votre bonheur</h2>
+        </div>
+    </div>
+    <div class="row inputmrg">
+        <div class="col-xs-4 inputmrg">
+            <input type="text" class="form-control" placeholder="Lieu">
+        </div>
+        <div class="col-xs-3 inputmrg">
+            <input type="text" class="form-control" placeholder="Nombre de personnes">
+        </div>
+        <div class="col-xs-3 inputmrg">
+            <input type="text" class="form-control" placeholder="Taux d'alcoolémie">
+        </div>
+        <div class="col-xs-2 inputmrg btnmrg">
+            <button class="btn btn-head" type="submit">ENVOI</button>
+        </div>
+    </div>
+</div>
+
 </section>
 <section id="sec2">
     <div class="row">
