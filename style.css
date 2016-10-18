@@ -22,6 +22,12 @@ Description: Notre premier theme WordPress !
 }
 
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
 /* DEMO example styles for logo image */
 
 .navbar-brand>img {
@@ -71,9 +77,38 @@ Description: Notre premier theme WordPress !
 }
 
 #sec2{
+    display: block;
     background-color: white;
     padding: 60px 0px 60px 0px;
 }
+
+#sec3{
+    background: url(img/jungle.jpg)repeat-y center center fixed;
+    padding: 60px 0px 60px 0px;
+    color: #fff;
+}
+
+.colann{
+     background-color: black;
+     padding: 10px 0px 20px 0px;
+     }
+
+.colann p{
+     margin-left: 20px;
+     color: #fff;
+}
+
+.colann h3{
+     margin-left: 20px;
+     color: #fff;
+}
+
+.coltext {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
 
 
 .imgmargin{
@@ -84,7 +119,6 @@ Description: Notre premier theme WordPress !
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
 
 .hrwhite{
     border-top: 1px solid #fff;
@@ -108,6 +142,7 @@ Description: Notre premier theme WordPress !
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
+
 
 .container-search {
     display: block;
@@ -161,8 +196,6 @@ Description: Notre premier theme WordPress !
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-=======
->>>>>>> 6535790b52de367f0183f4809d417a835baeff96
 /*--------------------------- hover effect cab ------------------------------ */
 .hovereffect1 {
     width: 100%;
@@ -208,7 +241,6 @@ footer{
     padding: 60px 0px;
 }
 
-<<<<<<< HEAD
 footer h3{
     font-family: 'Oswald', sans-serif;
     color: #fff;
@@ -220,7 +252,7 @@ footer a {
     text-decoration : none;
     color: #777777;
 }
-=======
+
 /*--------------------------- Page Avis ------------------------------ */
 
 .container-interview {
@@ -238,8 +270,8 @@ footer a {
 
 #block1 {
     padding: 10px 20px;
-    margin: 10 0 20px;
-    font-size: 17.5px;
+    margin: 10px 0px 20px 0px;
+    font-size: 17px;
     font-family: Georgia;
     font-style: italic;
     border-left: 4px solid #000000;
@@ -247,10 +279,9 @@ footer a {
 
 #block2 {
     padding: 10px 20px;
-    margin: 10 0 20px;
-    font-size: 17.5px;
+    margin: 10px 0px 20px 0px;
+    font-size: 17px;
     font-family: Georgia;
     font-style: italic;
     border-left: 4px solid #000000;
 }
->>>>>>> 6535790b52de367f0183f4809d417a835baeff96

@@ -35,7 +35,7 @@
 
 <div class="container container-mos">
     <div class="col-md-6 coll">
-        <div class="hovereffect1">
+        <div class="hovereffect1 imgmargin">
             <h2 class="captionmos">Au plus près de l'eau</h2>
             <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgmos1.jpg" alt="">
             <div class="overlay1">
@@ -53,7 +53,7 @@
 
 <div class="container-img">
     <div class="col-md-6 colr">
-        <div class="hovereffect1">
+        <div class="hovereffect1 imgmargin">
         <h2 class="captionmos">Hiver -10%</h2>
             <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgmos3.jpg" alt="">
             <div class="overlay1">
