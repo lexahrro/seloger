@@ -8,6 +8,7 @@ Description: Notre premier theme WordPress !
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Exo');
 
+
 .navbar-inverse {
     border: 0;
     height: 80px;
@@ -72,40 +73,18 @@ Description: Notre premier theme WordPress !
 #sec2{
     background-color: white;
     padding: 60px 0px 60px 0px;
-
 }
 
-#sec3{
-    background: url(img/jungle.jpg)no-repeat center center fixed;
-    padding: 60px 0px 60px 0px;
-    color: #fff;
-}
 
-.colann{
-    background-color: black;
-    padding: 10px 0px 20px 0px;
+.imgmargin{
+    margin-bottom: 25px;
 }
-
-.colann p{
-    margin-left: 20px;
-    color: #fff;
-}
-
-.colann h3{
-    margin-left: 20px;
-    color: #fff;
-}
-
-.coltext{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
 
 .rowcab {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 
 .hrwhite{
     border-top: 1px solid #fff;
@@ -182,6 +161,8 @@ Description: Notre premier theme WordPress !
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+=======
+>>>>>>> 6535790b52de367f0183f4809d417a835baeff96
 /*--------------------------- hover effect cab ------------------------------ */
 .hovereffect1 {
     width: 100%;
@@ -191,8 +172,6 @@ Description: Notre premier theme WordPress !
     position: relative;
     text-align: center;
     cursor: default;
-    margin-bottom: 25px;
-
 }
 .hovereffect1 .overlay1 {
     width: 100%;
@@ -229,6 +208,7 @@ footer{
     padding: 60px 0px;
 }
 
+<<<<<<< HEAD
 footer h3{
     font-family: 'Oswald', sans-serif;
     color: #fff;
@@ -240,3 +220,37 @@ footer a {
     text-decoration : none;
     color: #777777;
 }
+=======
+/*--------------------------- Page Avis ------------------------------ */
+
+.container-interview {
+    background-color: #c9c9c9;
+}
+
+.clodo1 {
+    border: 5px solid black;
+}
+.clodo2 {
+    border: 5px solid black;
+}
+
+
+
+#block1 {
+    padding: 10px 20px;
+    margin: 10 0 20px;
+    font-size: 17.5px;
+    font-family: Georgia;
+    font-style: italic;
+    border-left: 4px solid #000000;
+}
+
+#block2 {
+    padding: 10px 20px;
+    margin: 10 0 20px;
+    font-size: 17.5px;
+    font-family: Georgia;
+    font-style: italic;
+    border-left: 4px solid #000000;
+}
+>>>>>>> 6535790b52de367f0183f4809d417a835baeff96
