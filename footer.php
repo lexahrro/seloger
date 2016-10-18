@@ -1,8 +1,9 @@
+<footer>
 <div class="container">
 	<div id="footer" class="row slgrow">
 		<div class="col-md-4" id="logo" >
 			<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/logo.png" width="250" height="250" alt="logo SLG" class="img-responsive">
-			<hr>
+			<hr style="margin: 0 auto;">
 			<h4>Copyright 2016 © Alexandre Herrero // Marwan Diridollou</h4>		<!--Logo première colonne -->
 		</div>
 				
@@ -39,7 +40,7 @@
 		</div>				
 	</div>
 </div>
-
+</footer>
 
 
 </body>

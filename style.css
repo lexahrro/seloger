@@ -6,8 +6,9 @@ Description: Notre premier theme WordPress !
 */
 
 .navbar-inverse {
-    border-color: #080808;
+    border: 0;
     height: 80px;
+    background-color: rgba(34, 34, 34, 0.7);
 }
 
 .navbar-brand {
@@ -67,6 +68,7 @@ Description: Notre premier theme WordPress !
 
 #sec2{
     background-color: white;
+    padding: 60px 0px 60px 0px;
 }
 
 
@@ -107,14 +109,16 @@ Description: Notre premier theme WordPress !
 .hovereffect1 img {
     display: block;
     position: relative;
-=======
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 #logo, #logo img {
 	display: block;
     text-align: center;
     margin: 0 auto;
->>>>>>> ed5fd9d1ab1cc3149bf7e919da3f858c3bf9684d
+}
+
+
+footer{
+    background-color: black;
+    padding: 60px 0px;
 }
