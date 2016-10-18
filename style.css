@@ -107,4 +107,14 @@ Description: Notre premier theme WordPress !
 .hovereffect1 img {
     display: block;
     position: relative;
+=======
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#logo, #logo img {
+	display: block;
+    text-align: center;
+    margin: 0 auto;
+>>>>>>> ed5fd9d1ab1cc3149bf7e919da3f858c3bf9684d
 }
