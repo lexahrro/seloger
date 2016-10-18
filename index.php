@@ -8,16 +8,16 @@
         </div>
     </div>
     <div class="row inputmrg">
-        <div class="col-xs-4 inputmrg">
+        <div class="col-md-4 col-xs-12 inputmrg">
             <input type="text" class="form-control" placeholder="Lieu">
         </div>
-        <div class="col-xs-3 inputmrg">
+        <div class="col-md-3 col-xs-12 inputmrg">
             <input type="text" class="form-control" placeholder="Nombre de personnes">
         </div>
-        <div class="col-xs-3 inputmrg">
+        <div class="col-md-3 col-xs-12 inputmrg">
             <input type="text" class="form-control" placeholder="Taux d'alcoolémie">
         </div>
-        <div class="col-xs-2 inputmrg btnmrg">
+        <div class="col-md-2 col-xs-12 inputmrg btnmrg">
             <button class="btn btn-head" type="submit">ENVOI</button>
         </div>
     </div>
@@ -82,21 +82,21 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgmos1.jpg" alt="">
+                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol1.jpg" alt="">
                 <div class="colann">
                 <h3>1 pièce type loft</h3>
                 <p>Séjour lumineux avec grandes baies vitrées</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgmos1.jpg" alt="">
+                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol2.jpg" alt="">
                 <div class="colann">
                 <h3>Marre de la solitude ?</h3>
-                <p>L'auberge de jeunesse Hess vous ouvre ses portes</p>
+                <p>Hess vous ouvre ses portes</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgmos1.jpg" alt="">
+                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol3.jpg" alt="">
                 <div class="colann">
                 <h3>Superbe 2 pièces</h3>
                 <p>Exposé plein sud</p>
@@ -105,6 +105,7 @@
         </div>
     </div>
 </section>
+
 
 
 <?php get_footer(); ?>

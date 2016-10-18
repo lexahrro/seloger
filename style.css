@@ -28,6 +28,12 @@ Description: Notre premier theme WordPress !
     font-size: 20px;
 }
 
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-bottom: 4px solid white;
+    background-color: transparent;
+}
+
 /* DEMO example styles for logo image */
 
 .navbar-brand>img {
@@ -60,6 +66,7 @@ Description: Notre premier theme WordPress !
 #navbar-primary a {
     padding-left: 20px;
     padding-right: 20px;
+    height: 63px;
 }
 
 .container-head{
@@ -88,6 +95,15 @@ Description: Notre premier theme WordPress !
     color: #fff;
 }
 
+
+#secon1{
+    margin: 50px 0px;
+}
+
+#secon2{
+    margin: 50px 0px;
+}
+
 .colann{
      background-color: black;
      padding: 10px 0px 20px 0px;
@@ -96,11 +112,13 @@ Description: Notre premier theme WordPress !
 .colann p{
      margin-left: 20px;
      color: #fff;
+    font-family: 'Exo', sans-serif;
 }
 
 .colann h3{
      margin-left: 20px;
      color: #fff;
+    font-family: 'Oswald', sans-serif;
 }
 
 .coltext {
@@ -166,6 +184,14 @@ Description: Notre premier theme WordPress !
     color: #fff;
     border-radius: 0px;
     padding: 3px 12px;
+}
+
+.btn-contact {
+    border: 4px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000;
+    border-radius: 0px;
+    padding: 8px 50px;
 }
 
 .inputmrg{
@@ -284,4 +310,45 @@ footer a {
     font-family: Georgia;
     font-style: italic;
     border-left: 4px solid #000000;
+}
+
+
+
+input.form-control {
+    background-color: #3c4359;
+    border: 1px solid #000;
+}
+
+textarea.form-control {
+    background-color: #3c4359;
+    border: 1px solid #000;
+}
+
+.context {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container-contact h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-contact {
+    font-family: 'Exo', sans-serif;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 38%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
