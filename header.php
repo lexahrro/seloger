@@ -38,8 +38,11 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<div class="container-head full-bg-img flex-center">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
 
+    </div>
 </div>
 
 </div>
