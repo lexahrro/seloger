@@ -25,7 +25,8 @@ Description: Notre premier theme WordPress !
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -51,11 +52,6 @@ Description: Notre premier theme WordPress !
 }
 
 
-
-#navbar-primary .navbar-nav {
-    width: 100%;
-    text-align: center;
-}
 
 
 #navbar-primary li {
@@ -126,7 +122,27 @@ Description: Notre premier theme WordPress !
     font-family: 'Oswald', sans-serif;
 }
 
+.navbar-left{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
 
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -80px !important;  /* 50% of your logo width */
+    display: block;
+    margin-top: 12px;
+}
+
+
+
+.navbar-right{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
 
 
 .imgmargin{
