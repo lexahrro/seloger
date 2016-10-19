@@ -311,8 +311,9 @@ footer a {
     font-style: italic;
     border-left: 4px solid #000000;
 }
-#trip {
+#fiche {
     margin-right: 5px;
+    background-color: black;
 }
 
 
