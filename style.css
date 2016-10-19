@@ -93,11 +93,7 @@ Description: Notre premier theme WordPress !
 
 
 #secon1{
-    margin: 50px 0px;
-}
-
-#secon2{
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 
 .colann{
@@ -329,6 +325,10 @@ footer a {
 }
 #trip {
     margin-right: 5px;
+}
+
+#avissec1{
+    margin-top: 200px;
 }
 
 

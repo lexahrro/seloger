@@ -15,7 +15,6 @@
 </head>
 
 <body>
-<section id="sec1">
 <nav id="navbar-primary" class="navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
