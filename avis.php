@@ -1,3 +1,11 @@
+
+<?php
+/**
+* Template Name: AVIS
+*/
+?>
+
+
 <head>
     <title></title>
     <meta charset="utf-8">
@@ -38,7 +46,7 @@
 					</blockquote>  <!-- Citation du clodo2 -->
 				</div>
 				<div class="col-md-4" id="interview2">
-					<img src="img/bg3.jpg"  alt="logo SLG" class="img-responsive clodo2" > <!--Photo interview 2-->
+					<img src="img/bg3.jpg"  alt="logo SLG" class="img-responsive clodo2"> <!--Photo interview 2-->
 				</div>
 			</div>
 		</div>
@@ -50,14 +58,17 @@
 		<div class="container container-commentaire">
 			<div class="row">
 				<div class="commentaire">
-					<div class="col-md-5.jpg"
-					<img src="img/pic.jpg" class="img-circle" width="100" height="100" id="pic"/>
+					<div class="col-md-4 text-center">
+						<img src="img/pic.jpg" class="img-circle" width="100" height="100" id="pic"/>
+								<h4>Julia</h4>
+								<h4>Poliakov</h4>
+								<h4>25 ans</h4>
+					</div>
+					<div class="col-md-8">
+						<p>Bonjour</p>
+					</div>
 				</div>
 			</div>
 		</div>	
 	</section>
-
-
-
-
 

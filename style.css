@@ -311,8 +311,13 @@ footer a {
     font-style: italic;
     border-left: 4px solid #000000;
 }
+#trip {
+    margin-right: 5px;
+}
 
 
+
+/*--------------------------- Page Contact ------------------------------ */
 
 input.form-control {
     background-color: #3c4359;
