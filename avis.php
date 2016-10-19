@@ -50,6 +50,7 @@
 		<div class="container container-commentaire">
 			<div class="row">
 				<div class="commentaire">
+					<div class="col-md-5.jpg"
 					<img src="img/pic.jpg" class="img-circle" width="100" height="100" id="pic"/>
 				</div>
 			</div>
