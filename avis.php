@@ -48,8 +48,8 @@ get_header();
 
 	<section id="avissec2">
 		<div class="container container-commentaire">
-			<div class="row">
-				<div class="commentaire">
+																<!-- Premier commentaire -->
+			<div class="row commentaire">
 					<div class="col-md-2">
 						<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/pic.jpg" class="img-circle center-block" width="100" height="100" id="pic"/>
 					</div>
@@ -58,11 +58,41 @@ get_header();
 								<h4>Poliakov</h4>
 								<h4>25 ans</h4>
 					</div>
-					<div class="col-md-7">
-						<p>Bonjour</p>
+					<div class="col-md-7 avis">
+						<a class="lieu" href="">Pont Alexandre III</a>
+						<p> Très agréablement surprise.Je recommande fortement cette location facile d'accès.</p>
 					</div>
 				</div>
-			</div>
+																<!-- Deuxieme commentaire -->
+				<div class="row commentaire">
+					<div class="col-md-2">
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/pic1.png" class="img-circle center-block" width="100" height="100" id="pic"/>
+					</div>
+					<div class="col-md-3 fiche">
+								<h4>Jack</h4>
+								<h4>Daniels</h4>
+								<h4>37 ans</h4>
+					</div>
+					<div class="col-md-7 avis">
+						<a class="lieu" href="">Auberge de jeunesse HessLand</a>
+						<p> Bonne ambiance, la cuisine est entierement équipée.Mauvais point: le lit est un peu dur</p>
+					</div>
+				</div>
+																<!-- Troisieme commentaire -->
+				<div class="row commentaire">
+					<div class="col-md-2">
+						<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/pic2.jpg" class="img-circle center-block" width="100" height="100" id="pic"/>
+					</div>
+					<div class="col-md-3 fiche com">
+								<h4>FX</h4>
+								<h4>Heineken</h4>
+								<h4>34 ans</h4>
+					</div>
+					<div class="col-md-7 avis">
+						<a class="lieu" href="">L’auto loft d’Opéra</a>
+						<p>Salon au top possède , réveil agréable grâce aux baies vitrées.Coin douche tombe souvent en panne .</p>
+					</div>
+				</div>
 		</div>
 	</section>
 

@@ -326,9 +326,28 @@ footer a {
     font-family: Georgia;
     font-style: italic;
     border-left: 4px solid #000000;
+
+}
+
+.commentaire {
+    background-color: #d6d4d4;          /*--------------------------- CSS de l'ensemble du ROW ------------------------------ */
+
+}
+
+.avis  {                                  /*--------------------------- CSS de la Div 7 "Avis" ------------------------------ */
+color: #000;
+
+}
+
+.lieu  {
+    text-decoration: none;
+        color: #000;
+        font-size: 1.65em;
 }
 .fiche {
-    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+
 }
 
 
