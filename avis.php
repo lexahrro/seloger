@@ -50,8 +50,10 @@ get_header();
 		<div class="container container-commentaire">
 			<div class="row">
 				<div class="commentaire">
-					<div class="col-md-4 text-center">
+					<div class="col-md-1">
 						<img src="img/pic.jpg" class="img-circle" width="100" height="100" id="pic"/>
+					</div>
+					<div class="col-md-3 fiche">
 								<h4>Julia</h4>
 								<h4>Poliakov</h4>
 								<h4>25 ans</h4>
