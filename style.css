@@ -323,10 +323,10 @@ footer a {
     font-style: italic;
     border-left: 4px solid #000000;
 }
-#fiche {
-    margin-right: 5px;
-    background-color: black;
+.fiche {
+    padding-left: 10px;
 }
+
 
 #avissec1{
     margin-top: 200px;
