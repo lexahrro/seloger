@@ -77,32 +77,36 @@
             <div class="col-md-12 coltext">
                 <h2>DERNIERES ANNONCES</h2>
                 <hr class="hrwhite">
+            </div>
+        </div>
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol1.jpg" alt="">
-                <div class="colann">
-                <h3>1 pièce type loft</h3>
-                <p>Séjour lumineux avec grandes baies vitrées</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol2.jpg" alt="">
-                <div class="colann">
-                <h3>Marre de la solitude ?</h3>
-                <p>Hess vous ouvre ses portes</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/imgcol3.jpg" alt="">
-                <div class="colann">
-                <h3>Superbe 2 pièces</h3>
-                <p>Exposé plein sud</p>
-                </div>
-            </div>
-        </div>
+        <?php
+
+
+
+        $wp = query_posts(array(
+            'post_type'	=> 'location',
+            'meta_key' => 'a_la_une'
+        ));
+        echo '<div class="row">';
+        if(have_posts()) : while(have_posts()) : the_post();
+            echo '<div class="col-md-4">';
+            the_content();
+            echo '<div class="colann">';
+            echo '<h3>'; the_title(); echo '</h3>';
+            echo '<p>'; the_excerpt(); echo '</p>';
+            echo '<p>'; echo get('date_de_parution'); echo '</p>';
+            echo '</div>';
+            echo '</div>';
+
+
+
+        endwhile; endif;
+        echo '</div>';
+        ?>
+
+
+
     </div>
 </section>
 
