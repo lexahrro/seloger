@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php bloginfo('url'); ?>/wp-content/themes/seloger/responsive.css" rel="stylesheet">
     <link href="<?php bloginfo('url'); ?>/wp-content/themes/seloger/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('url'); ?>/wp-content/themes/seloger/style/animate.css" rel="stylesheet">
     <link href="<?php bloginfo('url'); ?>/wp-content/themes/seloger/bootstrap/js/bootstrap.min.js">
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('template_directory'); ?>/favicon.ico">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    ...
+</head>
+
 
 </head>
 

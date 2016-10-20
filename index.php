@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <section id="sec1">
-<div class="container container-search">
+<div class="container container-search animated fadeIn">
     <div class="row">
         <div class="col-xs-12">
-            <h2>Trouvez votre bonheur</h2>
+            <h2 class="animated flipInX">Trouvez votre bonheur</h2>
         </div>
     </div>
     <div class="row inputmrg">
@@ -25,6 +25,7 @@
 
 </section>
 <section id="sec2">
+    <div class="container container-mos animated zoomIn">
     <div class="row">
         <div class="col-md-12 coltext">
             <h2>NOS OFFRES</h2>
@@ -33,7 +34,7 @@
         </div>
     </div>
 
-<div class="container container-mos">
+
     <div class="row">
     <?php
 
@@ -131,7 +132,7 @@
 </section>
 
 <section id="sec3">
-    <div class="container">
+    <div class="container hideme">
         <div class="row">
             <div class="col-md-12 coltext">
                 <h2>DERNIERES ANNONCES</h2>
@@ -177,6 +178,32 @@
 
 
 </section>
+
+<script>
+    $(document).ready(function() {
+
+        /* Every time the window is scrolled ... */
+        $(window).scroll( function(){
+
+            /* Check the location of each desired element */
+            $('.hideme').each( function(i){
+
+                var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* If the object is completely visible in the window, fade it it */
+                if( bottom_of_window > bottom_of_object ){
+
+                    $(this).animate({'opacity':'1'},1000);
+
+                }
+
+            });
+
+        });
+
+    });</script>
+</script>
 
 
 

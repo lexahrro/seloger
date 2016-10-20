@@ -1,9 +1,9 @@
 <footer>
-<div class="container">
+<div class="container hidden-xs">
 	<div id="footer" class="row slgrow">
 		<div class="col-sm-4" id="logo" >
 			<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/logo.png" width="250" height="250" alt="logo SLG" class="img-responsive">
-			<hr style="margin: 0 auto; width: 30%;">
+			<hr style="width:30%;">
 			<h4>Alexandre Herrero </h4>
 			<h4>Marwan Diridollou</h4>		<!--Logo première colonne -->
 		</div>
@@ -41,6 +41,24 @@
 		</div>				
 	</div>
 </div>
+
+	<div class="visible-xs">
+		<div id="footermobile" class="container">
+			<div  class="col-xs-12">
+				<img src="<?php bloginfo('url'); ?>/wp-content/themes/seloger/img/logo.png" width="250" height="250" alt="logo SLG" class="img-responsive center-block">
+				<a href="#">Accueil</a><br>
+				<hr>
+				<a href="#">Location</a><br>
+				<hr>
+				<a href="#">Avis</a><br>
+				<hr>
+				<a href="#">Contact</a><br>
+				<hr>
+				<center><div id="copyright" class="col-sm-12 "><h5>Copyright 2016 © Alexandre Herrero // Marwan Diridollou</h5></div></center>
+			</div>
+		</div>
+	</div>
+
 </footer>
 
 
