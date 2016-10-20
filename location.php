@@ -29,7 +29,7 @@ get_header();
             echo '<div class="row">';
         if(have_posts()) : while(have_posts()) : the_post();
             echo '<div class="col-md-4">';
-            the_content();
+            echo '<img src='; echo get('image'); echo ' class="img-responsive" >';
             echo '<div class="colann">';
             echo '<h3>'; the_title(); echo '</h3>';
             echo '<p>'; the_excerpt(); echo '</p>';
@@ -55,11 +55,11 @@ get_header();
         $wp = query_posts(array(
             'post_type'	=> 'location',
         ));
-        echo '<div class="container">';
+        echo '<div class="container container-loc">';
         if(have_posts()) : while(have_posts()) : the_post();
             echo '<div class="row">';
                 echo '<div class="col-md-4">';
-                    the_content();
+                    echo '<img src='; echo get('image'); echo ' class="img-responsive" >';
                 echo '</div>';
 
                 echo '<div class="col-md-8">';
@@ -68,7 +68,7 @@ get_header();
                     echo '<p>'; echo get('date_de_parution'); echo '</p>';
                 echo '</div>';
             echo '</div>';
-            echo '<hr>';
+            echo '<hr class="hrcomment">';
 
         endwhile; endif;
     ?>

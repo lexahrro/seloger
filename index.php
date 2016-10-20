@@ -84,7 +84,7 @@
     </div>
 
 
-
+<!--
 
     <div class="container container-mos">
         <div class="row">
@@ -126,6 +126,8 @@
 </div>
             </div>
     </div>
+
+    -->
 </section>
 
 <section id="sec3">
@@ -137,35 +139,43 @@
             </div>
         </div>
 
+
+
         <?php
-
-
 
         $wp = query_posts(array(
             'post_type'	=> 'location',
             'meta_key' => 'a_la_une',
             'showposts' => '3'
         ));
+
         echo '<div class="row">';
-        if(have_posts()) : while(have_posts()) : the_post();
-            echo '<div class="col-md-4">';
-            the_content();
-            echo '<div class="colann">';
-            echo '<h3>'; the_title(); echo '</h3>';
-            echo '<p>'; the_excerpt(); echo '</p>';
-            echo '<p>'; echo get('date_de_parution'); echo '</p>';
-            echo '</div>';
-            echo '</div>';
+            echo '<div class="grid">';
+            if(have_posts()) : while(have_posts()) : the_post();
+                echo'<div class="col-md-4">';
+                    echo'<figure class="effect-julia">';
+                        echo '<img src='; echo get('image'); echo ' class="img-responsive" >';
+                        echo'<figcaption>';
+                            echo '<h2>'; the_title(); echo '</h2>';
+                            echo'<div>';
+                                 the_excerpt();
+                                echo '<p>'; echo get('date_de_parution'); echo '</p>';
+                            echo'</div>';
+                            echo'<a href="#">View more</a>';
+                        echo'</figcaption>';
+                    echo'</figure>';
+                echo'</div>';
 
+            endwhile; endif;
 
-
-        endwhile; endif;
-        echo '</div>';
+        echo'</div>';
+        echo'</div>';
         ?>
 
-
-
     </div>
+
+
+
 </section>
 
 
