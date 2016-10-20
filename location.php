@@ -23,7 +23,8 @@ get_header();
 
         $wp = query_posts(array(
             'post_type'	=> 'location',
-            'meta_key' => 'a_la_une'
+            'meta_key' => 'a_la_une',
+            'showposts' => '3'
         ));
             echo '<div class="row">';
         if(have_posts()) : while(have_posts()) : the_post();

@@ -34,6 +34,61 @@
     </div>
 
 <div class="container container-mos">
+    <div class="row">
+    <?php
+
+    $wp = query_posts(array(
+        'post_type'	=> 'post',
+        'meta_key' => 'position',
+        'meta_value' => 'left'
+    ));
+    echo '<div class="col-md-6 coll">';
+    if(have_posts()) : while(have_posts()) : the_post();
+        echo '<div class="hovereffect1 imgmargin">';
+        echo '<h2 class="captionmos">'; the_title();echo '</h2>';
+        the_content();
+        echo '<div class="overlay1"></div>';
+        echo '</div>';
+
+
+
+
+
+    endwhile; endif;
+    ?>
+        </div>
+
+
+
+        <?php
+
+        $wp = query_posts(array(
+            'post_type'	=> 'post',
+            'meta_key' => 'position',
+            'meta_value' => 'right'
+        ));
+        echo '<div class="col-md-6 colr">';
+        if(have_posts()) : while(have_posts()) : the_post();
+            echo '<div class="hovereffect1 imgmargin">';
+            echo '<h2 class="captionmos">'; the_title();echo '</h2>';
+            the_content();
+            echo '<div class="overlay1"></div>';
+            echo '</div>';
+
+
+
+
+
+        endwhile; endif;
+        ?>
+    </div>
+
+
+
+
+    <div class="container container-mos">
+        <div class="row">
+
     <div class="col-md-6 coll">
         <div class="hovereffect1 imgmargin">
             <h2 class="captionmos">Au plus près de l'eau</h2>
@@ -69,8 +124,10 @@
 
     </div>
 </div>
+            </div>
     </div>
 </section>
+
 <section id="sec3">
     <div class="container">
         <div class="row">
@@ -86,7 +143,8 @@
 
         $wp = query_posts(array(
             'post_type'	=> 'location',
-            'meta_key' => 'a_la_une'
+            'meta_key' => 'a_la_une',
+            'showposts' => '3'
         ));
         echo '<div class="row">';
         if(have_posts()) : while(have_posts()) : the_post();

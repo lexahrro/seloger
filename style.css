@@ -167,7 +167,7 @@ Description: Notre premier theme WordPress !
 .captionmos {
     position: absolute;
     right: 10px;
-    bottom: 0px;
+    bottom: 10px;
     z-index: 10;
     color: #fff;
     background-color: black;
