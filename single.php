@@ -18,12 +18,16 @@ get_header(); ?>
 				echo '<div class="col-md-8 col-img">';
 				echo '<img src='; echo get('image'); echo ' class="img-responsive" >';
 				echo '</div>';
+
 				echo '<div class="col-md-4 input-article">';
 
 				echo '</div>';
+			echo '</div>';
+
+		echo '<div class="row">';
 				echo '<div class="col-md-12 col-article">';
-				echo '<h2>';the_title(); echo '</h2>';
-				echo '<p>'; echo get('description'); echo '</p>';
+					echo '<h2>';the_title(); echo '</h2>';
+					echo '<p>'; echo get('description'); echo '</p>';
 				echo '</div>';
 				echo '</div>';
 			echo '</div>';
