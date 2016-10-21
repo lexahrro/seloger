@@ -8,6 +8,10 @@ get_header();
 
 ?>
 
+
+
+
+
 <section id="secon1">
 <div class="container container-contact">
     <div class="row">
@@ -17,26 +21,9 @@ get_header();
             <p class="section-paragraph">Pole Léonard de Vinci - 12 Avenue Léonard de Vinci, 92400 Courbevoie</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="Email">
-        </div>
-        <hr class="visible-xs visible-sm hrmobile">
-        <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Nom et prénom">
-        </div>
-        <br>
-    </div>
-    <div class="row context">
-        <div class="col-md-12">
-            <textarea class="form-control" rows="7" placeholder="Votre message"></textarea>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <button class="btn-contact" type="submit">ENVOI</button>
-        </div>
-    </div>
+    <?php
+    echo do_shortcode("[contact-form-7 id=\"5\" title=\"Formulaire de contact 1\"]");
+    ?>
 </div>
     </section>
 <section id="secon2">

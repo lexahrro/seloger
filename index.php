@@ -46,9 +46,11 @@
     echo '<div class="col-md-6 coll">';
     if(have_posts()) : while(have_posts()) : the_post();
         echo '<div class="hovereffect1 imgmargin">';
-        echo '<h2 class="captionmos">'; the_title();echo '</h2>';
-        the_content();
-        echo '<div class="overlay1"></div>';
+        ?><a href="<?php the_permalink() ?>"><?php
+             echo '<h2 class="captionmos">'; the_title();echo '</h2>';
+                echo '<img src="'; echo get('image'); echo '" class="img-responsive" >';
+              echo '<div class="overlay1"></div>';
+        echo '</a>';
         echo '</div>';
 
 
@@ -72,7 +74,7 @@
         if(have_posts()) : while(have_posts()) : the_post();
             echo '<div class="hovereffect1 imgmargin">';
             echo '<h2 class="captionmos">'; the_title();echo '</h2>';
-            the_content();
+            echo '<img src="'; echo get('image'); echo '" class="img-responsive" >';
             echo '<div class="overlay1"></div>';
             echo '</div>';
 

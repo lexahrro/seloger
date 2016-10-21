@@ -486,10 +486,41 @@ textarea.form-control {
 }
 
 
+.rowloc{
+    margin-top: 20px;
+    border: 1px solid #8b8b8b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
+.rowloc:hover{
+    background-color: #c9c9c9;
+}
 
 
+.input-article{
+    border: 1px solid black;
+}
+
+.col-article{
+    padding: 50px 50px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.secsingle{
+    margin-top: 150px;
+}
+
+.col-img {
+    padding: 50px 50px;
+    background-color: white;
+}
+
+.bodygris{
+    background-color: #e0e0e0;
+}
 
 
 
@@ -621,6 +652,9 @@ figure.effect-julia p {
     transform: translate3d(-360px,0,0);
     font-family: 'Oswald', sans-serif;
 }
+
+
+
 
 
 

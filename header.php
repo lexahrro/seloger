@@ -12,7 +12,6 @@
     <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('template_directory'); ?>/favicon.ico">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    ...
 </head>
 
 

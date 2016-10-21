@@ -22,64 +22,69 @@ get_header();
 
 			<?php
 
-			$wp = query_posts(array(
-				'post_type'	=> 'temoignage',
-				'meta_key' => 'position',
-				'meta_value' => 'left'
-			));
 
-			if(have_posts()) : while(have_posts()) : the_post();
-				echo '<div class="row">';
-					echo '<div class="col-md-4">';
-						echo '<img src='; echo get('image'); echo ' class="img-responsive clodo1 " >';
-					echo '</div>';
+				/*if(($i % 2) == 1)  //Afficher l'article à gauche
+				{echo $wp = query_posts(array(
+					'post_type'	=> 'temoignage',
+					'meta_key' => 'position'
 
-					echo '<div class="col-md-8 tem-text">';
-						echo '<h4>'; echo get('nom'); echo '</h4>';
-						echo '<h4>'; echo get('prenom'); echo '</h4>';
-						echo '<h4>'; echo get('age'); echo '</h4>';
-						echo '<blockquote id="block1">'; echo'<p>'; echo get('histoire'); echo'</p>';
-						echo '<small>de '; echo'<cite>'; echo get('prenom'); echo' '; echo get('nom');echo'</cite>';echo'</small>';
-						echo'</blockquote>';
-					echo '</div>';
-				echo '</div>';
+				));*/
+					$wp = query_posts('post_type=temoignage');
+					if(have_posts()) : while(have_posts()) : the_post();
 
-			endwhile; endif;
+						$index = $wp_query->current_post;
 
+						if($index%2 == 0){
+							echo '<div class="row">';
+							echo '<div class="col-md-4">';
+							echo '<img src='; echo get('image'); echo ' class="img-responsive clodo1 " >';
+							echo '</div>';
+
+							echo '<div class="col-md-8 tem-text">';
+							echo '<h4>'; echo get('nom'); echo '</h4>';
+							echo '<h4>'; echo get('prenom'); echo '</h4>';
+							echo '<h4>'; echo get('age'); echo '</h4>';
+							echo '<blockquote id="block1">'; echo'<p>'; echo get('histoire'); echo'</p>';
+							echo '<small>de '; echo'<cite>'; echo get('prenom'); echo' '; echo get('nom');echo'</cite>';echo'</small>';
+							echo'</blockquote>';
+							echo '</div>';
+							echo '</div>';
+						}else{
+							echo '<div class="row">';
+							echo '<div class="col-md-8 tem-text">';
+							echo '<h4>'; echo get('nom'); echo '</h4>';
+							echo '<h4>'; echo get('prenom'); echo '</h4>';
+							echo '<h4>'; echo get('age'); echo '</h4>';
+							echo '<blockquote id="block1">'; echo'<p>'; echo get('histoire'); echo'</p>';
+							echo '<small>de '; echo'<cite>'; echo get('prenom'); echo' '; echo get('nom');echo'</cite>';echo'</small>';
+							echo'</blockquote>';
+							echo '</div>';
+
+							echo '<div class="col-md-4">';
+							echo '<img src='; echo get('image'); echo ' class="img-responsive clodo1 " >';
+							echo '</div>';
+
+
+							echo '</div>';
+						}
+
+
+
+					endwhile; endif;
+
+
+				/*else   // Sinnon afficher l'article à droite
+				{echo $wp = query_posts(array(
+					'post_type'	=> 'temoignage',
+					'meta_key' => 'position',
+					'meta_value' => '0'
+				));
+
+					if(have_posts()) : while(have_posts()) : the_post();
+
+
+					endwhile; endif;;}*/
 			?>
-
-			<hr class="hrcomment">
-
-			<?php
-
-			$wp = query_posts(array(
-				'post_type'	=> 'temoignage',
-				'meta_key' => 'position',
-				'meta_value' => 'right'
-			));
-
-			if(have_posts()) : while(have_posts()) : the_post();
-				echo '<div class="row">';
-					echo '<div class="col-md-8 tem-text">';
-						echo '<h4>'; echo get('nom'); echo '</h4>';
-						echo '<h4>'; echo get('prenom'); echo '</h4>';
-						echo '<h4>'; echo get('age'); echo '</h4>';
-						echo '<blockquote id="block1">'; echo'<p>'; echo get('histoire'); echo'</p>';
-						echo '<small>de '; echo'<cite>'; echo get('prenom'); echo' '; echo get('nom');echo'</cite>';echo'</small>';
-						echo'</blockquote>';
-					echo '</div>';
-
-					echo '<div class="col-md-4">';
-						echo '<img src='; echo get('image'); echo ' class="img-responsive clodo1 " >';
-					echo '</div>';
-
-
-				echo '</div>';
-
-			endwhile; endif;
-
-			?>
-
 </div>
 
 <!--
